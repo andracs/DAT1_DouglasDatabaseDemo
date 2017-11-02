@@ -1,6 +1,12 @@
 package dk.hungarian;
 
-/* From https://www.tutorialspoint.com/jdbc/jdbc-sample-code.htm */
+/* From https://www.tutorialspoint.com/jdbc/jdbc-sample-code.htm 
+*  OBS! Denne kommer kun til at køre, hvis du laver en DB med navnet MyNewDatabase, og en tabel med employees som herunder:
+* id	int(11)	NO	PRI		auto_increment
+* first	varchar(45)	YES			
+* last	varchar(45)	YES			
+* age	int(11)	YES			
+*/
 //STEP 1. Import required packages
 import java.sql.*;
 
